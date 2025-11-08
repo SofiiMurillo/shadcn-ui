@@ -15,7 +15,7 @@ function Accordion({
 function AccordionItem({
   className,
   ...props
-}: React.ComponentProps<typeof AccordionPrimitive.Item>) {
+}: React.ComponentProps<typeof AccordionPrimitive.Item>) { 
   return (
     <AccordionPrimitive.Item
       data-slot="accordion-item"
