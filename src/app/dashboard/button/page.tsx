@@ -69,12 +69,10 @@ export default function page() {
         <ArrowUpIcon />
       </Button>
 
-<Button size="sm" variant="outline" disabled>
-  <Spinner />
-  Submit
-</Button>
-
-            
+    <Button size="sm" variant="outline" disabled>
+        <Spinner />
+        Submit
+      </Button>
         </div>
     )
 }
