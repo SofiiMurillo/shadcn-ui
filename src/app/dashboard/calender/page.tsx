@@ -51,7 +51,6 @@ export default function calender() {
             <p>{smallDate}</p>
             <p>{multiplesDates?.map(date => date.toLocaleDateString("es-ES")).join(", ")}</p>
         </div>
-
         </div>
 
 
