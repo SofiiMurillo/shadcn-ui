@@ -89,7 +89,6 @@ export default function page() {
     <div>    <Carousel
 
        plugins={[Autoplay({ delay: 1000 })]}
-
       opts={{
         align: "start",
       }}

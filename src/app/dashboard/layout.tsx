@@ -14,6 +14,21 @@ const links = [
   { name: "avatar", href: "avatar" },
   { name: "card", href: "card" },
   { name: "carousel", href: "carousel" },
+  { name: "checkbox", href: "checkbox" },
+  { name: "command", href: "command" },  
+  { name: "combobox", href: "combobox" },  
+  { name: "context-menu", href: "context-menu" },
+  { name: "menu-bar", href: "menu-bar" },
+  { name: "input-OPT", href: "input-OPT" },
+  { name: "sheet", href: "sheet" },
+  { name: "skeleton", href: "skeleton" },
+  { name: "progress", href: "progress" },
+  { name: "progress", href: "progress" },
+  { name: "progress", href: "progress" },
+
+
+
+
 
 
 
