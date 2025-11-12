@@ -22,9 +22,7 @@ const links = [
   { name: "input-OPT", href: "input-OPT" },
   { name: "sheet", href: "sheet" },
   { name: "skeleton", href: "skeleton" },
-  { name: "progress", href: "progress" },
-  { name: "progress", href: "progress" },
-  { name: "progress", href: "progress" },
+
 
 
 
