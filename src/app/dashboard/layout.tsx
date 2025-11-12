@@ -22,6 +22,10 @@ const links = [
   { name: "input-OPT", href: "input-OPT" },
   { name: "sheet", href: "sheet" },
   { name: "skeleton", href: "skeleton" },
+  { name: "sonner", href: "sonner" },
+  { name: "tabs", href: "tabs" },
+
+
 
 
 
