@@ -1,6 +1,6 @@
 "use client"
 
-import { Toaster } from "@/components/sonner";
+import { Toaster } from "@/components/ui/sonner";
 import { toast } from "sonner";
 
 
