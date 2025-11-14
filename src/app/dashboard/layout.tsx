@@ -24,6 +24,9 @@ const links = [
   { name: "skeleton", href: "skeleton" },
   { name: "sonner", href: "sonner" },
   { name: "tabs", href: "tabs" },
+  { name: "data-table", href: "data-table" },
+
+
 
 
 
