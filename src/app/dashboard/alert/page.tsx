@@ -1,5 +1,5 @@
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { AlertCircleIcon, CheckCircle2Icon, PopcornIcon, Star } from "lucide-react";
+import { AlertCircleIcon, CheckCircle2Icon, PopcornIcon, Star, Banana, Cookie, Flower2 } from "lucide-react";
 
 export default function page() {
     return(
@@ -33,6 +33,45 @@ export default function page() {
 
       <Alert variant="success">
         <Star />
+        <AlertTitle>Todo bien </AlertTitle>
+        <AlertDescription>
+          <p>lo hicimos</p>
+          <ul className="list-inside list-disc text-sm">
+            <li>Check your card details</li>
+            <li>Ensure sufficient funds</li>
+            <li>Verify billing address</li>
+          </ul>
+        </AlertDescription>
+      </Alert>
+
+            <Alert variant="banana">
+        <Banana />
+        <AlertTitle>Todo bien </AlertTitle>
+        <AlertDescription>
+          <p>lo hicimos</p>
+          <ul className="list-inside list-disc text-sm">
+            <li>Check your card details</li>
+            <li>Ensure sufficient funds</li>
+            <li>Verify billing address</li>
+          </ul>
+        </AlertDescription>
+      </Alert>
+
+            <Alert variant="success">
+        <Cookie />
+        <AlertTitle>Todo bien </AlertTitle>
+        <AlertDescription>
+          <p>lo hicimos</p>
+          <ul className="list-inside list-disc text-sm">
+            <li>Check your card details</li>
+            <li>Ensure sufficient funds</li>
+            <li>Verify billing address</li>
+          </ul>
+        </AlertDescription>
+      </Alert>
+
+            <Alert variant="success">
+        <Flower2 size={44} />
         <AlertTitle>Todo bien </AlertTitle>
         <AlertDescription>
           <p>lo hicimos</p>
