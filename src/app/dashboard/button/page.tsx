@@ -1,7 +1,7 @@
 "use client"
 
 import { Button } from "@/components/ui/button";
-import { ArrowUpIcon, CircleFadingArrowUpIcon } from "lucide-react";
+import { ArrowUpIcon, CircleFadingArrowUpIcon, Cake, Pizza, Sticker,  Palette } from "lucide-react";
 
 
 function Spinner() {
@@ -23,7 +23,7 @@ function Spinner() {
 
 export default function page() {
     return(
-        <div className="grid grid-cols-5 gap-2" >
+        <div className="grid grid-cols-2 gap-2" >
 
 
       <Button>
@@ -73,6 +73,30 @@ export default function page() {
         <Spinner />
         Submit
       </Button>
+
+
+      <Button variant={"cake"} onClick={() => console.log( "≧◡≦🎉 ¡Otro año más!" )} >
+        <Cake />
+        ¡Feliz Cumpleaños!
+      </Button>
+
+
+      <Button variant={"pizza" } onClick={() => console.log( "( ◑‿◑)ɔ┏🥤--🍕┑٩(^◡^ ) Hora de comer" )} >
+        <Pizza />
+        Tú pizza esta esperando ser recogida
+      </Button>
+
+
+      <Button variant={"sticker" } onClick={() => console.log( "(>‿◠)✌🎉 ¡Agregado con exito!" )} >
+        <Sticker />
+        Agregado con exito
+      </Button>
+
+      <Button variant={"palette" } onClick={() => console.log( "(͠≖ ͜ʖ͠≖)👌 Buen gusto" )} >
+        <Palette />
+        Elige tu color preferido
+      </Button>
+
         </div>
     )
 }

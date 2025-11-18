@@ -20,6 +20,15 @@ const buttonVariants = cva(
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
         success: "text-green-600 hover:bg-green-600/10 dark:hover:bg-green-600/20 md:text-green-600 bg-green-100 dark:bg-green-900",
+        cake: "text-black-600 hover:bg-pink-600/10 dark:hover:bg-fuchsia-600/20 md:text-black-600 bg-fuchsia-100 dark:bg-fuchsia-900",
+        pizza: "text-black-600 hover:bg-orange-600/10 dark:hover:bg-yellow-600/20 md:text-black-600 bg-orange-100 dark:bg-yellow-900",
+        sticker: "text-black-600 hover:bg-blue-600/10 dark:hover:bg-cyan-600/20 md:text-black-600 bg-blue-100 dark:bg-cyan-900",
+        palette: "text-black-600 hover:bg-pink-600/10 dark:hover:bg-fuchsia-600/20 md:text-black-600 bg-gradient-to-r from-blue-500 via-pink-400 to-red-500 dark:from-blue-700 dark:via-pink-600 dark:to-red-700"
+
+        
+
+
+
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
