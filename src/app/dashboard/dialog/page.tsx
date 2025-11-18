@@ -15,7 +15,8 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@radix-ui/react-label"
 // import { Input } from "@/components/ui/input"
 
-
+import { ArrowUpIcon, CircleFadingArrowUpIcon, Cake, Pizza, Sticker,  Palette } from "lucide-react";
+ 
 
 
 export default function page() {
@@ -24,7 +25,10 @@ export default function page() {
             <Dialog>
       <form>
         <DialogTrigger asChild>
-          <Button variant="outline">Open Dialog</Button>
+          <Button variant="outline">
+          <ArrowUpIcon/>
+            
+            Open Dialog</Button>
         </DialogTrigger>
         <DialogContent className="sm:max-w-[425px]">
           <DialogHeader>
@@ -56,7 +60,9 @@ export default function page() {
 
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline">Share</Button>
+        <Button variant="outline">
+          <Sticker/>
+          Share</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
