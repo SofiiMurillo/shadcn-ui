@@ -11,9 +11,11 @@ const alertVariants = cva(
         default: "bg-card text-card-foreground",
         destructive:
           "text-destructive bg-card [&>svg]:text-current *:data-[slot=alert-description]:text-destructive/90",
-          success: " md:text-green-600 ",
-          banana: "text-yellow bg-yellow [&>svg]:text-yellow text-yellow/90 md:text-yellow-600 ",
-
+          success:"text-green bg-white [&>svg]:text-green text-green/90 md:text-green-600 ",
+          banana: "text-yellow [&>svg]:text-yellow text-yellow/90 md:text-yellow-600 ",
+          cookie: "text-black bg-white [&>svg]:text-black text-black/90 md:text-black-600 ",
+          flower: "text-pink bg-pink [&>svg]:text-pink text-pink/90 md:text-pink-600 ",
+          
       },
     },
     defaultVariants: {
@@ -61,7 +63,7 @@ function AlertDescription({
     <div
       data-slot="alert-description"
       className={cn(
-        "text-muted-foreground col-start-2 grid justify-items-start gap-1 text-sm [&_p]:leading-relaxed ",
+        " col-start-2 grid justify-items-start gap-1 text-sm  ",
         className
       )}
       {...props}

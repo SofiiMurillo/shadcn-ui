@@ -23,7 +23,7 @@ export default function page() {
         <AlertTitle>Unable to process your payment.</AlertTitle>
         <AlertDescription>
           <p>Please verify your billing information and try again.</p>
-          <ul className="list-inside list-disc text-sm">
+          <ul className="list-inside list-disc text-sm ">
             <li>Check your card details</li>
             <li>Ensure sufficient funds</li>
             <li>Verify billing address</li>
@@ -32,6 +32,7 @@ export default function page() {
       </Alert>
 
       <Alert variant="success">
+
         <Star />
         <AlertTitle>Todo bien </AlertTitle>
         <AlertDescription>
@@ -57,7 +58,7 @@ export default function page() {
         </AlertDescription>
       </Alert>
 
-            <Alert variant="success">
+            <Alert variant="cookie">
         <Cookie />
         <AlertTitle>Todo bien </AlertTitle>
         <AlertDescription>
@@ -70,7 +71,7 @@ export default function page() {
         </AlertDescription>
       </Alert>
 
-            <Alert variant="success">
+            <Alert variant="flower">
         <Flower2 size={44} />
         <AlertTitle>Todo bien </AlertTitle>
         <AlertDescription>
